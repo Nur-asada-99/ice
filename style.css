@@ -1,0 +1,135 @@
+
+body{
+    /* background-color: black; */
+    
+}
+a{
+    text-decoration: none;
+}
+.shapka{
+    width: auto;
+    height: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .glav-icon{
+        width: auto;
+        height: 190px;
+        img{
+            width: auto;
+            height: 240px;
+            margin-bottom: 200px;
+            
+        }
+    }
+    
+}
+
+
+
+.razdel{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    h1{
+        text-decoration: none;
+    }
+    
+}
+.icon-social{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+/* ===================== */
+
+.cont{
+    width: auto;
+    height: auto;
+}
+.imgs .prt-1-ptodukt{
+    width: 350px;
+    height: auto;
+    /* margin-top: 50px; */
+    clip-path: 
+    polygon(
+      0% 35%,     /* верхняя левая */
+      25% 0%,     /* верхняя левая */
+      50% 0%,    /* верхняя правая */
+      0% 100%,   /* верхняя правая */
+      0% 40%,  /* нижняя правая */
+      40% 0%,  /* нижняя правая */
+      100% 0%,   /* нижняя левая */
+      0% 150%      /* нижняя левая */
+    );
+}
+.o-produkte{
+    h1{
+        font-size: 42px;
+    }
+}
+.imgs .prt-2-ptodukt{
+    width: auto;
+    height: 370px;
+    margin-bottom: 390px;
+    margin-right: 970px;
+    clip-path: 
+    polygon(
+      0% 100%,     /* верхняя левая */
+      20% 0%,     /* верхняя левая */
+      100% 0%,    /* верхняя правая */
+      100% 5%,   /* верхняя правая */
+      100% 0%,  /* нижняя правая */
+      80% 100%,  /* нижняя правая */
+      0% 100%,   /* нижняя левая */
+      0 100%      /* нижняя левая */
+    );
+}
+
+.imgs {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    .pomosh{
+     position: absolute;   
+     
+    }
+.text{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    margin-left: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.prt-3-ptodukt{
+    width: 1650px;
+    height: 500px;
+    border: 2px solid;
+    /* position: absolute; */
+    background-color:rgb(27, 92, 167);
+    
+   
+}
+}
+
