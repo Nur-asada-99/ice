@@ -6,17 +6,13 @@ body{
 a{
     text-decoration: none;
 }
-hr{
-    
-}
 .shapka{
     width: auto;
     height: 200px;
-/*     border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 170px;
     .glav-icon{
         width: auto;
         height: 190px;
@@ -39,9 +35,7 @@ hr{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    h1{
-        text-decoration: none;
-    }
+    
     
 }
 .icon-social{
@@ -68,7 +62,8 @@ hr{
 .imgs .prt-1-ptodukt{
     width: 350px;
     height: auto;
-    /* margin-top: 50px; */
+    margin-right: 12px;
+
     clip-path: 
     polygon(
       0% 35%,     /* верхняя левая */
@@ -84,7 +79,10 @@ hr{
 .o-produkte{
     h1{
         font-size: 42px;
+        margin-left: 100px;
+        color: white;
     }
+    
 }
 .imgs .prt-2-ptodukt{
     width: auto;
@@ -128,11 +126,136 @@ hr{
 .prt-3-ptodukt{
     width: 1650px;
     height: 500px;
-    border: 2px solid;
     /* position: absolute; */
     background-color:rgb(27, 92, 167);
+    opacity: 0.7;
     
    
 }
 }
+/* ==================================================================== */
+.cont-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 19px;
+    }
+}
+.cont-border{
+    width: 1650px;
+    height: 500px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.imgs-2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* margin-left: 1000px; */
+    /* position: absolute; */
+    gap: 20px;
+}
+/* ========================================================= */
+.cont-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 19px;
+        color: white;
+        margin-right: 450px;
+    }
+    .helpDiv{
+        width: 250px;
+        height: 100px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        margin-bottom: 10px;
 
+        background-color: #5B4D56;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+
+    }
+}
+.bacgraund{
+    width: 1650px;
+    height: 500px;
+    background-color: #372632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-help{
+    
+    width: 700px;
+    height: 645px;
+    border: 2px solid;
+    position: absolute;
+    margin-left: 978px;
+    margin-bottom: 149px;
+    img{
+        width: 700px;
+        height: 645px;
+    }
+}
+/* =============================================================== */
+.cont-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bacgr-cahes{
+    width: 1650px;
+    height: 500px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.c{
+    width: 450px;
+    height: 300px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        position: absolute;
+        margin-bottom: 320px;
+        border-radius: 15px;
+        width:  150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #372632;
+        color: white;
+    }
+}
+.cont-1{
+    background-image: url(./photo/header-top__bg.jpg);
+}
