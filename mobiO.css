@@ -38,12 +38,11 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    img{
-        width: 30px;
+    
+}
+.icon-social img{
+    width: 30px;
         height: auto;
-     display: none;
-        
-    }
 }
 
 a{
