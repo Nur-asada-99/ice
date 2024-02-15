@@ -1,0 +1,382 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .shapka{
+        padding-top: 20px; ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .glav-icon{
+        img{
+        width: auto;
+        height: 100px;  
+        }
+        
+    }
+    .razdel{
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+        
+            h1{
+                font-size:120%;
+                color: #5B4D56;
+            }
+        
+    
+        
+    }
+    .icon-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        img{
+            width: 30px;
+            height: auto;
+            
+        }
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    /* ==================================================== */
+    
+    
+    .cont{
+        /* border: 2px solid; */
+    }
+    
+    /* ===================================================== */
+    
+    
+    .o-produkte{
+        h1{
+            padding-left: 20px;
+        }
+    }
+    
+    .imgs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./photo/header-top__bg.jpg);
+        
+    }
+    
+    .imgs .prt-1-ptodukt{
+        width: 250px;
+        height: auto;
+        position: static;
+        clip-path: 
+        polygon(
+          0% 35%,     /* верхняя левая */
+          25% 0%,     /* верхняя левая */
+          50% 0%,    /* верхняя правая */
+          0% 100%,   /* верхняя правая */
+          0% 40%,  /* нижняя правая */
+          40% 0%,  /* нижняя правая */
+          100% 0%,   /* нижняя левая */
+          0% 150%      /* нижняя левая */
+        );
+    }
+    
+    .imgs .prt-2-ptodukt{
+        width: 300px;
+        height: auto;
+        margin-bottom: 450px;
+        clip-path: 
+        polygon(
+          0% 100%,     /* верхняя левая */
+          20% 0%,     /* верхняя левая */
+          100% 0%,    /* верхняя правая */
+          100% 5%,   /* верхняя правая */
+          100% 0%,  /* нижняя правая */
+          80% 100%,  /* нижняя правая */
+          0% 100%,   /* нижняя левая */
+          0 100%      /* нижняя левая */
+        );
+    }
+    
+    .cube-img{
+        position: absolute; 
+        margin-top: 630px;
+        margin-left: 590px;
+    }
+    .ice_cube__before{
+        margin-top: 470px;
+        margin-right: 380px;
+        position: absolute; 
+    }
+    .reasons__title{
+        margin-bottom: 670px;
+        margin-left: 450px;
+        position: absolute; 
+    }
+    
+    
+    
+    .text {
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        margin-right: 500px;
+        gap: 10px;
+        
+        h2{
+            font-size: 47px; 
+            color: rgb(223, 223, 223);
+            border: 2px solid rgb(223, 223, 223); 
+            padding: 5px;
+            width: 550px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 155px;
+        }
+    
+        h3{
+        /* border: 2px solid; */
+        padding: 30px;
+        color: rgb(223, 223, 223);
+        font-size: 21px;
+    }
+    }
+    /* ======================= ДОСТАВКА ================================== */
+    
+    
+    .dostavka{
+        
+        .cont-border{
+           display: flex; 
+           justify-content: space-evenly;
+           flex-wrap: wrap;
+        }
+        
+        h3{
+            /* border: 2px solid; */
+            padding: 30px;
+            /* color: rgb(223, 223, 223); */
+            font-size: 19px;
+            border-block: solid;
+            writing-mode: horizontal-tb;
+        }
+        .imgs-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+    
+            img{
+            width: 200px;
+            height: auto; 
+            }
+            
+        }
+    
+        h1{
+            padding-left: 20px;
+        }
+    
+    }
+    /* =======================  КЕШБЕК  =================================== */
+    
+    .keshback{
+            padding-left: 30px;
+        .bacgraund{
+            display: flex;
+            justify-content: space-around;
+            align-items: end;
+            
+            h3{
+                border: 4px solid rgb(141, 143, 143);
+                font-size: 19px;
+                padding: 15px;
+                margin: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+        h1{
+            padding-left: 15px;
+        }
+        .helpDiv{
+            
+            
+            border: 4px solid ;
+            width: 220px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+            
+        }
+        .img-help{
+            img{
+                width: 450px;
+            }
+        }
+        .ice_cube__before-2{
+            margin-bottom: 200px;
+            margin-right: 90px;
+            position: absolute; 
+            transform: rotate(45deg);
+            width: 340px;
+        }
+        .cube-img-2{
+            margin-top: 870px;
+            margin-left: 150px;
+            position: absolute;
+            transform: rotate(45deg);
+    
+        }
+        .reasons__title-2{
+            margin-bottom: 570px;
+            margin-left: 450px;
+            position: absolute; 
+            transform: rotate(50deg);
+    
+        }
+    
+    }
+    
+    /* ======================= КАЧЕСТВО =========================== */
+    
+    .cachestwo{
+        h1{
+            padding-left: 25px;
+        }
+        
+    
+        .bacgr-cahes{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+    
+            .c {
+                border: 4px solid rgb(141, 143, 143);
+                width: 350px;
+                height: 250px;
+                padding: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+    
+                h2{
+                    border: 2px solid ;
+                    border-radius: 15px;
+                    padding: 12px;
+                    background-color: #5B4D56;
+                    color: white;
+                    position: absolute;
+                    margin-bottom: 300px;
+                    width:  150px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                }
+                h3{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 19px;
+                }
+            }
+        }
+        
+    }
+    
+    /* ==============================  АСССАРТИМЕНТ ТОВАРА  ========================================= */
+    .catalog{
+        h1{
+        padding-left: 25px;
+        }
+    }
+    .bacgr-catalog{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        /* border: 2px solid #5b4d5a; */
+        gap: 20px;
+        .part-1{
+            background-color: #cad0d5;
+            width: 400px;
+            height: 460px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            gap: 15px;
+            
+    
+            .for-pay-img{
+                width: 370px;
+                height: 210px;
+                border-radius: 15px ;
+                /* border: 2px solid yellow; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 370px;
+                    height: 210px;
+                    border-radius: 15px ;
+                }
+            }
+    
+            .buttn-pay{
+                width: auto;
+                height: 40px;
+                background-color: rgb(0, 119, 255);
+                border-radius: 15px;
+                padding: 5px;
+                border: 8px solid white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                
+                h1{
+                    color: white;
+                    font-size: 19px;
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    padding: 5px;
+    
+                }
+    
+                
+                
+            }
+            .prise-pay{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 35px;
+    
+                }
+        }
+    }
+    
+
+}
