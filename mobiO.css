@@ -357,11 +357,7 @@ a{
             display: flex;
             justify-content: center;
             align-items: center;
-            img{
-                width: 370px;
-                height: 210px;
-                border-radius: 15px ;
-            }
+            
         }
 
         .buttn-pay{
@@ -397,6 +393,11 @@ a{
 
             }
     }
+ .for-pay-img img{
+                width: 370px;
+                height: 210px;
+                border-radius: 15px ;
+            }
 }
 
 }
